@@ -1,13 +1,13 @@
-## About Me
+### About Me
 
 My name's Edwin and I come from Panama. I did my undergrad studies in Energy Engineering. National Cheng Kung University in Tainan, Taiwan.
 Currently I'm pursuing a MSc in Electrical Engineering and Computer Science in National Chiao Tung University, Taiwan.
 
-## Research Interests
+### Research Interests
 
 Currently I'm working on applications of signal and image processing for biomedical purposes making use of deep learning and computer vision.
 
-## Projects
+### Projects
 
 - Remote Photoplethysmography (RPPG) studies. Done in C++ and Python for NCTU PCS Lab.
 - Computer vision for autonomous driving. Done in Python making use of TensorFlow, Keras and OpenCV, and ROS for Deep Learning course (108-1).
@@ -42,3 +42,7 @@ Syntax highlighted code block
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/arkel23/arkel23.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
