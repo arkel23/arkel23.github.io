@@ -1,0 +1,18 @@
+body {
+    background: rgb(255, 255, 255);
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    font-family: "Helvetica", sans-serif;
+}
+
+.header {
+    color: black;
+    font-size: xx-large;
+    padding: 5px 10px;
+}
+
+.footer {
+    background-color: rgb(186, 222, 187);
+    padding: 6px;
+    clear: both;
+}
