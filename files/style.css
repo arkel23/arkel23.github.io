@@ -1,8 +1,6 @@
 body {
     background: rgb(255, 255, 255);
-    background-image: url("bg.jpg");
-    background-repeat: no-repeat;
-    font-family: "Helvetica", sans-serif;
+    font-family: "Cambria", serif;
 }
 
 .header {
