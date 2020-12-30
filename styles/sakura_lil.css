@@ -203,7 +203,9 @@ html {
 }
 .site-header{
     background:#1d7484;opacity:0.9;min-height:55.95px;position:relative;  
-  margin: 0px;
+  margin: -13px;
+  margin-top: 0px;
+  padding: 0px;
   }
 .site-title{font-size:26px;font-weight:600;color:#ffffff;line-height:59.4px;letter-spacing:-1px;margin-bottom:0;float:left}
 .site-title,.site-title:visited{color:#ffffff}
