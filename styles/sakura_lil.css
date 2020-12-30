@@ -17,7 +17,7 @@ html {
     margin: auto;
     color: #4a4a4a;
     background-color: #f9f9f9;
-    padding: 0px; 
+    padding-top: 0px; 
     padding-left: 13px;
     padding-right: 13px;
     padding-bottom: 13px;
@@ -194,13 +194,16 @@ html {
   max-width:calc(800px - (30px * 4));
   margin-right:auto;
   margin-left:auto;
+  padding-left:15px;
+  padding-right:15px;
 }
 @media screen and (max-width: 800px){
-.wrapper{max-width:-webkit-calc(800px - (30px));max-width:calc(800px - (30px));margin-right: 99rem; margin-left: 99rem}
+.wrapper{max-width:-webkit-calc(800px - (30px));max-width:calc(800px - (30px));
+  margin-right:auto; margin-left:auto; padding-left: 15px; padding-right:15px;}
 }
 .site-header{
     background:#1d7484;opacity:0.9;min-height:55.95px;position:relative;  
-  margin: 0 -99rem;
+  margin: 0px;
   }
 .site-title{font-size:26px;font-weight:600;color:#ffffff;line-height:59.4px;letter-spacing:-1px;margin-bottom:0;float:left}
 .site-title,.site-title:visited{color:#ffffff}
