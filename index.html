@@ -10,34 +10,51 @@
         Artificial Intelligence, AI, Data Science, DS, Tutorials, Research">
         <meta http-equiv="content-type" content="text/html; charset=windows-1252">
         <title>Arkel's Notes: Edwin Arkel Rios Blog</title>
-        <link href='styles/sakura.css' id="sakura-css" rel='stylesheet' type='text/css'>
+        <base href="./">
+        <link href='styles/sakura_lil.css' id="sakura-css" rel='stylesheet' type='text/css'>
+        <link rel="canonical" href="https://arkel23.github.io/">
         <style>
             img {
                 margin-bottom: 0;
             }
             td {
-                vertical-align: top
+                vertical-align: top;
             }
             .img {
-                vertical-align: middle
+                vertical-align: middle;
             }
             .project {
                 font-size: 17px;
             }
+            .highlighted {
+                font-size:      20px;
+                font-weight:    bold;
+            }
+            #footer {
+                text-align: center;
+                font-size: 16px;
+            }
+            .logo {
+                border-radius: 80%;
+                width: 30px;
+            }
+
+
         </style>
     </head>
 
-    <body>
-        <div id="header">
-            <a href="index.html">
-                Arkel's Notes: Edwin Arkel Rios's Blog
-            </a>
-            <a href="subpages/about.html">About Me</a>
-        </div>
+    <body>  
+        <header class="site-header" role="banner" id="header-bar">
+            <div class="wrapper"> 
+                <a class="site-title" href="index.html">Arkel's Notes</a>
+                
+                <nav class="site-nav">
+                    <a class="page-link" href="https://hackmd.io/@arkel23">Blog Posts</a>
+                </nav>
+            </div>
+        </header>
 
-        <hr>
-        
-        <h1>Arkel's Notes</h1>
+        <h4>About Me</h4>
         
         <table style="width:95%;">
             <colgroup>
@@ -50,14 +67,14 @@
                     <img width="200" src="files/me.jpg" border="0">
                 </td>
                 <td align="right" style="vertical-align: middle">
-                    <span>Edwin Arkel Rios</span>
+                    <div class="highlighted">Edwin Arkel Rios</div>
                     MSc Student in EECS<br>
                     National Chiao Tung University<br>
                     Hsinchu, Taiwan<br><br>
 
                     edwinarkel.rios@gmail.com<br>
                     [<a href="https://github.com/arkel23" border="0">GitHub</a>]
-                    [<a href="files/cv.pdf" border="0">Resume</a>]<br>
+                    [<a href="files/cv.pdf" border="0">Resume</a>]
                 </td>
             </tr>
             </tbody>
@@ -74,7 +91,7 @@
         </p>
         <hr>
 
-        <h2>Projects</h2>
+        <h4>Projects</h4>
         <table style="width:100%">
             <colgroup>
             <col width="25%">
@@ -133,16 +150,27 @@
             </tbody>
         </table>
     
-        </div>
-            <p><a href="#top">[Top]</a></p>
-        </div>
-
-        <div>
-            <hr>
-            Arkel's Notes: Edwin Arkel Rios's Blog
-            <ol>
-              <li id="fn1"><p>Footnote text goes here.<a href="#fnref1">↩</a></p></li>
-            </ol>
+        <hr>
+        <div id="footer">
+            <div>
+            <a href="index.html">Arkel's Notes: Edwin Arkel Rios's Blog | </a>
+            <a href="subpages/about.html">About Me | </a>
+            <a href="https://github.com/arkel23/arkel23.github.io">Webpage Source Code</a>
+            </div>
+            <div style="padding-top: 10px;">
+                <a href="https://github.com/arkel23" target="_blank">
+                    <img class="logo" src="files/logo_github.png">
+                </a>
+                <a href="mailto:edwinarkel.rios@gmail.com" target="_blank">
+                    <img class="logo" src="files/logo_gmail.png">
+                </a>
+                <a href="http://discordapp.com/users/344795970283896832" target="_blank">
+                    <img class="logo" src="files/logo_discord.png">
+                </a>
+                <a href="https://www.instagram.com/arkeldiary/" target="_blank">
+                    <img class="logo" src="files/logo_instagram.png">
+                </a>
+            </div>
         </div>
 
     </body>
