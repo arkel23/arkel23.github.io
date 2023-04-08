@@ -64,7 +64,7 @@
             <tbody>
             <tr>
                 <td align="center" class="img">
-                    <img width="200" src="files/me.jpg" border="0">
+                    <img width="200" src="assets/me.jpg" border="0">
                 </td>
                 <td align="right" style="vertical-align: middle">
                     <div class="highlighted">Edwin Arkel Rios</div>
@@ -74,7 +74,7 @@
 
                     edwinarkel.rios@gmail.com<br>
                     [<a href="https://github.com/arkel23" border="0">GitHub</a>]
-                    [<a href="files/cv.pdf" border="0">Resume</a>]
+                    [<a href="assets/cv.pdf" border="0">Resume</a>]
                 </td>
             </tr>
             </tbody>
@@ -82,21 +82,93 @@
 
         <hr>
         <p align="justify">
-            My name's Edwin and I come from Panama. I did my undergrad studies in 
-            Energy Engineering. National Cheng Kung University in Tainan, Taiwan.
+            My name's Edwin and I come from Panama. I did my undergraduate studies in 
+            Energy Engineering National Cheng Kung University in Tainan, Taiwan.
             Currently, I'm pursuing a PhD in Electrical Engineering and Computer 
             Science in National Chiao Tung University, Taiwan. <br><br>
-            
-            My research interests include deep learning and its applications for computer vision. Some general tasks that
-            I've conducted research on include image classification and generation, image-to-image 
-            translation, face recognition, time-series classification, regression and generation,
-            self-supervised learning, and multimodal learning. Among the specific applications
-            I have worked on are computer vision for contactless physiological signal acquisition
-            and analysis, and domain adaptation of vision transformer models using transfer learning
-            for analysis of anime-style images. 
+
+            My name's Edwin and I received the B.S. degree in Energy Engineering from National Cheng Kung
+            University, Tainan, Taiwan, in 2019. I enrolled National Chiao Tung University to pursue a M.S. and
+            then a Ph.D. degree in Electrical Engineering and Computer Science, in 2019 and 2021, respectively.<br>
+            My research is focused on the design of efficient deep learning models. In particular, I have done
+            work on time-series for heart-rate monitoring, model compression using knowledge distillation, and finegrained image recognition.
         </p>
         <hr>
 
+        <h4>Publications</h4>
+        <table style="width:100%">
+            <colgroup>
+            <col width="25%">
+            <col width="75%">
+            </colgroup>
+            <tbody>
+
+                <tr>
+                <td class="img">
+                    <img align="center" src="assets/glsim.png" border="0">
+                </td>
+                <td align="left">
+                    <b>Global-Local Similarity for Efficient Fine-Grained Image Recognition with Vision Transformers</b><br>
+                    Similarity metric between global and local representation as criteria for discriminative region selection criteria for FGIR.<br>
+                    Thorough experiments across 14 FGIR datasets covering variety of settings including image size and AugReg combinations.<br>
+                    Our proposed model obtains best accuracy on 8 / 14 at much less cost than best on others.<br>
+                    [<a href="https://github.com/arkel23/GLSim">Source code</a>]
+                    [<a href="https://arxiv.org/abs/">Paper (coming soon)</a>]
+                    <br>
+                </td>
+                <tr>
+
+                <tr>
+                <td class="img">
+                    <img align="center" src="assets/animesion.png" border="0">
+                </td>
+                <td align="left">
+                    <b>Anime Character Recognition using Intermediate Features Aggregation. ISCAS 2022</b><br>
+                    Intermediate features aggregation classification head for reducing sensitivity to hyperparameters in ViTs at low computational cost.<br>
+                    Experiments on how model architecture and hyperparameter affect classification performance.<br>
+                    [<a href="https://github.com/arkel23/animesion/classification">Source code</a>]
+                    [<a href="https://ieeexplore.ieee.org/document/9937519">Paper</a>]
+                    <br>
+                </td>
+                <tr>
+
+                <tr>
+                <td class="img">
+                    <img align="center" src="assets/ifacd.png" border="0">
+                </td>
+                <td align="left">
+                    <b>IFACD: Intermediate Features Augmented Contrastive Distillation. ICLR CSS Workshop 2022</b><br>
+                    Extend contrastive learning framework (in particular SimCLR-like) to support features from intermediate layers
+                    of a particular image as additional positive pairs and intermediate features from other images in batch as negative pairs, 
+                    reducing reliance on augmentations pairs and large batch size requirements.<br>
+                    Apply proposed contrastive loss in a knowledge distillation framework where intermediate features are extracted
+                    using a frozen teacher and student learns using a combined contrastive, distillation, and supervised cross-entropy loss.<br>
+                    Experiments with a variety of teacher-student combinations show our method obtains favorable accuracy at
+                    a competitive computational cost compared to alternatives.<br>
+                    [<a href="https://github.com/arkel23/IntermediateFeaturesAugmentedRepDistiller">Source Code</a>]
+                    [<a href="https://iclr.cc/virtual/2022/workshop/9069#wse-detail-9084">Recorded Presentation (Starts at 2:47:50</a>]
+                    [<a href="assets/IFACD.pdf">Slides</a>]
+                    <br>
+                </td>
+                <tr>
+
+                <tr>
+                <td class="img">
+                    <img align="center" src="assets/rppg_demo.png" border="0">
+                </td>
+                <td align="left">
+                    <b>DLPrPPG: Development and Design of Deep Learning Platform for Remote Photoplethysmography. ISCAS 2022</b><br>
+                    <b></b>Parametric Study of Performance of Remote Photopletysmography System. ISCAS 2021</b><br>
+                    Systematic studies of remote photoplethysmography (RPPG) design hyperparameters
+                    (face detection method, region of interest selection scheme, sliding window size, preprocessing and postprocessing algorithm choice)
+                    and their effects on heart rate prediction accuracy in relation to computational cost using C++, Python and OpenCV.<br>
+                    [<a href="https://ieeexplore.ieee.org/document/9937698">Paper ISCAS 2022</a>]
+                    [<a href="https://ieeexplore.ieee.org/document/9401620">Paper ISCAS 2021</a>]
+                    <br>
+                </td>
+                <tr>
+
+        
         <h4>Projects</h4>
         <table style="width:100%">
             <colgroup>
@@ -104,59 +176,54 @@
             <col width="75%">
             </colgroup>
             <tbody>
-            <tr>
-                <td class="img">
-                    <img align="center" src="https://camo.githubusercontent.com/bfab3405368e2d2819ba249f5d1e726aaecf3d6d1209e63833619466d477be84/68747470733a2f2f6a2e676966732e636f6d2f524f707031302e676966" border="0">
-                </td>
-                <td align="left">
-                    <b>Vision Transformers for Anime Character Face Recognition</b> <br>
-                    Image classification of anime character faces using state-of-the-art for image recognition: vision transformers.<br>
-                    Revamped a dataset for this task, DAF:re: almost 500 K images and more than 3 K classes.<br>
-                    Conducted a large set of experiments on both CNN and self-attention based models, and explored for the first-time the
-                    hyperparameter tuning (mini-batch and image size) of vision transformers for out-of-domain data.<br>
-                    [<a href="https://github.com/arkel23/animesion/tree/main/classification">Project page</a>]
-                    [<a href="https://arxiv.org/abs/2101.08674">Paper on DAF:re</a>]
-                    <br>
-                </td>
-            <tr>
-                <td class="img">
-                    <img align="center" src="files/rppg_demo.png" border="0">
-                </td>
-                <td align="left">
-                    <b>Remote Photoplethysmography (RPPG) Studies</b><br>
-                    Systematic studies of RPPG technologies using C++, Python and OpenCV.<br>
-                    Done for NCTU Parallel Computing Systems (PCS) Lab.<br>      
-                </td>
-            </tr>
-            <tr>
-                <td class="img">
-                    <img align="center" src="files/dip_deblurgan_demo.jpg" border="0">
-                </td>
-                <td align="left">
-                    <b>DeblurGAN for Deblurring of Videos</b> <br>
-                    Done in Python, using OpenCV and PyTorch.<br>
-                    Final project for Digital Image Processing course (108-1).<br>
-                    Also included slides for midterm presentation covering DeblurGANv2 paper. <br>
-                    [<a href="files/dip_deblurgan_poster.pdf">Final Project Poster</a>]
-                    [<a href="files/dip_deblurgan_proposal.pdf">DeblurGANv2 Paper Slides</a>]
-                    <br>
-                </td>
-            </tr>
-            <tr>
-                <td class="img">
-                    <img align="center" src="files/dl_demo.png" border="0">
-                </td>
-                <td align="left">
-                    <b>Computer Vision for Autonomous Driving</b> <br>
-                    Done in Python, making use of TensorFlow, Keras and OpenCV, and ROS. <br>
-                    Final project for Deep Learning course (108-1). <br>
-                    Also included slides for midterm presentation covering VGG network paper. <br>
-                    [<a href="files/dl_vgg.pdf">VGG Paper Slides</a>]
-                    [<a href="files/dl_final.pdf">Final Project Slides</a>]
-                    <br>
-                </td>
-            </tr>
-            </tr>
+
+                <tr>
+                    <td class="img">
+                        <img align="center" src="https://camo.githubusercontent.com/bfab3405368e2d2819ba249f5d1e726aaecf3d6d1209e63833619466d477be84/68747470733a2f2f6a2e676966732e636f6d2f524f707031302e676966" border="0">
+                    </td>
+                    <td align="left">
+                        <b>Vision Transformers for Anime Character Face Recognition</b> <br>
+                        Image classification of anime character faces using state-of-the-art for image recognition: vision transformers.<br>
+                        Revamped a dataset for this task, DAF:re: almost 500 K images and more than 3 K classes.<br>
+                        Conducted experiments on both CNN and self-attention based models, and explored for the first-time the
+                        hyperparameter tuning (mini-batch and image size) of vision transformers for out-of-domain data.<br>
+                        [<a href="https://github.com/arkel23/animesion/classification">Source code</a>]
+                        [<a href="https://arxiv.org/abs/2101.08674">Paper on DAF:re</a>]
+                        <br>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="img">
+                        <img align="center" src="assets/dip_deblurgan_demo.jpg" border="0">
+                    </td>
+                    <td align="left">
+                        <b>DeblurGAN for Deblurring of Videos</b> <br>
+                        Done in Python, using OpenCV and PyTorch.<br>
+                        Final project for Digital Image Processing course (108-1).<br>
+                        Also included slides for midterm presentation covering DeblurGANv2 paper. <br>
+                        [<a href="assets/dip_deblurgan_poster.pdf">Final Project Poster</a>]
+                        [<a href="assets/dip_deblurgan_proposal.pdf">DeblurGANv2 Paper Slides</a>]
+                        <br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="img">
+                        <img align="center" src="assets/dl_demo.png" border="0">
+                    </td>
+                    <td align="left">
+                        <b>Computer Vision for Autonomous Driving</b> <br>
+                        Done in Python, making use of TensorFlow, Keras and OpenCV, and ROS. <br>
+                        Final project for Deep Learning course (108-1). <br>
+                        Also included slides for midterm presentation covering VGG network paper. <br>
+                        [<a href="assets/dl_vgg.pdf">VGG Paper Slides</a>]
+                        [<a href="assets/dl_final.pdf">Final Project Slides</a>]
+                        <br>
+                    </td>
+                </tr>
+
             </tbody>
         </table>
     
@@ -169,16 +236,16 @@
             </div>
             <div style="padding-top: 10px;">
                 <a href="https://github.com/arkel23" target="_blank">
-                    <img class="logo" src="files/logo_github.png">
+                    <img class="logo" src="assets/logo_github.png">
                 </a>
                 <a href="mailto:edwinarkel.rios@gmail.com" target="_blank">
-                    <img class="logo" src="files/logo_gmail.png">
+                    <img class="logo" src="assets/logo_gmail.png">
                 </a>
                 <a href="http://discordapp.com/users/344795970283896832" target="_blank">
-                    <img class="logo" src="files/logo_discord.png">
+                    <img class="logo" src="assets/logo_discord.png">
                 </a>
                 <a href="https://www.instagram.com/arkeldiary/" target="_blank">
-                    <img class="logo" src="files/logo_instagram.png">
+                    <img class="logo" src="assets/logo_instagram.png">
                 </a>
             </div>
         </div>
