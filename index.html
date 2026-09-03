@@ -72,7 +72,7 @@
                 </td>
                 <td align="right" style="vertical-align: middle">
                     <div class="highlighted">Edwin Arkel Rios</div>
-                    PhD Student in EECS<br>
+                    PhD Candidate in EECS<br>
                     National Yang Ming Chiao Tung University<br>
                     Hsinchu, Taiwan<br><br>
 
@@ -100,7 +100,8 @@
             self-supervised learning, and efficient fine-grained image recognition
             systems incorporating parameter-efficient transfer learning,
             token pruning for vision transformers, and efficient discriminative
-            feature selection mechanisms.
+            feature selection mechanisms. More recently I have worked on
+            low-bit quantization of speech and audio language models.
         </p>
         <hr>
 
@@ -111,6 +112,78 @@
             <col width="75%">
             </colgroup>
             <tbody>
+
+                <tr>
+                    <td class="img">
+                        <img align="center" src="assets/teacher.png" border="0">
+                    </td>
+                    <td align="left">
+                        <b>How to Choose Your Teacher for Fine Grained Image
+                            Recognition. CVPR FGVC Workshop 26</b><br>
+                        <b>On the Role of the Teacher in Knowledge Distillation for
+                            Fine Grained Image Recognition. CVGIP 25</b><br>
+                        Systematic study of teacher selection for knowledge
+                        distillation on fine-grained datasets, where the usual
+                        rule of picking the most accurate teacher breaks down.<br>
+                        Experiments across teacher-student pairs, datasets and
+                        distillation losses show which teacher properties
+                        predict student accuracy.<br>
+                        [<a href="https://arxiv.org/abs/2605.15689">Paper</a>]
+                        <br>
+                    </td>
+                <tr>
+
+                <tr>
+                    <td class="img">
+                        <img align="center" src="assets/backbones.png" border="0">
+                    </td>
+                    <td align="left">
+                        <b>A Large-Scale Study on the Accuracy vs Cost Trade-offs of
+                            Training and Evaluation Settings in Fine-Grained Image
+                            Recognition. CVPR FGVC Workshop 26</b><br>
+                        Over 2000 experiments across 16 backbones, 17 datasets and
+                        6 training and evaluation settings to measure what
+                        FGIR-specific settings buy in accuracy and what they cost
+                        in training and inference time.<br>
+                        Results distilled into a decision chart for choosing a
+                        backbone and setting under a given system constraint;
+                        825 pretrained checkpoints released.<br>
+                        [<a href="https://github.com/arkel23/FGIR-Backbones">Source code</a>]
+                        [<a href="https://arxiv.org/abs/2605.18700">Paper</a>]
+                        <br>
+                    </td>
+                <tr>
+
+                <tr>
+                    <td class="img">
+                        <img align="center" src="assets/qhsic.png" border="0">
+                    </td>
+                    <td align="left">
+                        <b>An Empirical Analysis of Weights Post-Training Quantization
+                            for Hyperspectral Image Classification. CVGIP 26 (Merit Paper Award)</b><br>
+                        First systematic post-training quantization benchmark for
+                        Transformer- and Mamba-based hyperspectral image
+                        classifiers: 2,820 runs over bit widths, group sizes,
+                        quantization libraries, label budgets and datasets.<br>
+                        4-bit weights are near-lossless and the accuracy-cost
+                        sweet spot; Mamba models are the most sensitive below
+                        that, and Martian scenes are less sensitive than Earth ones.<br>
+                    </td>
+                <tr>
+
+                <tr>
+                    <td class="img">
+                    </td>
+                    <td align="left">
+                        <b>Switchable-Precision Universally Slimmable Networks. IEEE SPL 26</b><br>
+                        <b>Revisiting the Backbone, Pretraining and Transferability for
+                            Hierarchical Fine-Grained Image Recognition. CVGIP 25 (Excellent Paper Award)</b><br>
+                        A single network that runs at any width and at several
+                        weight precisions (SPL), and a study of how backbone and
+                        pretraining choices transfer to hierarchical fine-grained
+                        recognition (CVGIP, equal contribution).<br>
+                    </td>
+                <tr>
 
                 <tr>
                     <td class="img">
