@@ -171,11 +171,9 @@
                         <b>An Empirical Analysis of Weights Post-Training Quantization for Hyperspectral Image Classification. CVGIP 26 (Merit Paper Award)</b><br>
                         First systematic post-training quantization benchmark for
                         Transformer- and Mamba-based hyperspectral image
-                        classifiers: 2,820 runs over bit widths, group sizes,
-                        quantization libraries, label budgets and datasets.<br>
-                        4-bit weights are near-lossless and the accuracy-cost
-                        sweet spot; Mamba models are the most sensitive below
-                        that, and Martian scenes are less sensitive than Earth ones.<br>
+                        classifiers: 564 quantization runs on four
+                        representative architectures.<br>
+                        Quantization is effectively lossless at higher bit widths.<br>
                         <br>
                     </td>
                 </tr>
@@ -287,8 +285,9 @@
                         <b>Down-Sampling Inter-Layer Adapter for Parameter and Computation Efficient Ultra-Fine-Grained Image Recognition. ECCV EFM Workshop 24</b><br>
                         Addresses attention collapse under wide domain gap adaptation
                         settings by proposing a down-sampling adapter module.<br>
-                        Similar accuracy but 123x fewer trainable parameters
-                        compared to SOTA.<br>
+                        At least 6.8% higher average accuracy than other
+                        parameter-efficient methods, with at least 123x fewer
+                        trainable parameters than state-of-the-art methods.<br>
                         [<a href="https://github.com/arkel23/DownSamplingInterLayerAdapter">Source code</a>]
                         [<a href="https://arxiv.org/abs/2409.11051">Paper</a>]
                         <br>
